@@ -15,6 +15,7 @@
 # Module-level constant         : ALL_CAPS
 # Instance methods use `self` as first parameter
 # Class methods use `cls` as name of first parameter
+# Static method use decorator @staticmethod
 
 # Expression & Statements
 # Use inline negation `if a is not b`
@@ -23,3 +24,6 @@
 # `import` should always at Top
 # Use absolute value for `import`
 # Import order: standard library -> third party -> customized. Use alphabetical order under each section
+#   In Pycharm
+#   Ctrl+Alt+L: Format code
+#   Ctrl+Alt+O: Format import
